@@ -12,7 +12,8 @@ class MyWeb extends Component {
     render() {
         return (
             <WebView
-                source={{uri: 'http://10.0.2.2:3000/index'}}
+                // source={{uri: 'http://10.0.2.2:3000/index'}}
+                source={{uri: 'https://frozen-dawn-88842.herokuapp.com/index'}}
                 style={{marginTop: 23}}
                 ref={(myWeb) => this.refWeb = myWeb}
                 onNavigationStateChange={this.onNavigationStateChange.bind(this)}
