@@ -6,6 +6,7 @@ class MyWeb extends Component {
       return (
           <WebView
               source={{uri: 'http://10.0.2.2:3000/index'}}
+              style={{marginTop: 23}}
         />
       );
   }
